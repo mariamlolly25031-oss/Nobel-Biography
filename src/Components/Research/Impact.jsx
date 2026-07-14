@@ -1,6 +1,6 @@
 function ResearchImpact() {
   return (
-    <section className="relative bg-[#08182B] py-18 lg:py-20 overflow-hidden">
+    <section className="relative bg-[#08182B] py-14 lg:py-16 overflow-hidden">
 
       {/* BACKGROUND FORMULA */}
       <span className="absolute right-0 top-10 font-playfair text-[14rem] text-white/2 leading-none">

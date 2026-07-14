@@ -1,6 +1,6 @@
 function ResearchSearch() {
   return (
-    <section className="bg-[#071321] py-16 lg:py-20">
+    <section className="bg-[#071321] py-12 lg:py-14">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
         {/* HEADER */}

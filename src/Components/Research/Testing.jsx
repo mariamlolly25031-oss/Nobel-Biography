@@ -3,7 +3,7 @@ import trials from "../../Data/Testing";
 function Testing() {
   
   return (
-    <section className="bg-[#071321] py-18 lg:py-24">
+    <section className="bg-[#071321] py-14 lg:py-16">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
         {/* HEADER */}
