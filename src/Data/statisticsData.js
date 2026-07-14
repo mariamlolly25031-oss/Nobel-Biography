@@ -17,25 +17,25 @@ const stats = [
     icon: HiOutlineGlobeAlt,
     title: "100+",
     subtitle: "Countries Benefited",
-    color: "text-emerald-400",
+    color: "text-yellow-400",
   },
   {
     icon: HiOutlineShieldCheck,
     title: "Affordable",
     subtitle: "Treatment for All",
-    color: "text-emerald-400",
+    color: "text-yellow-400",
   },
   {
     icon: HiOutlineSparkles,
     title: "Malaria",
     subtitle: "Mortality Reduced",
-    color: "text-emerald-400",
+    color: "text-yellow-400",
   },
   {
     icon: HiOutlineUserGroup,
     title: "Global",
     subtitle: "Health Impact",
-    color: "text-emerald-400",
+    color: "text-yellow-400",
   },
 ];
 
