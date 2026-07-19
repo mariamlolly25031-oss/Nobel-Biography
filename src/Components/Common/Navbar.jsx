@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
 import VisitorCounter from "./VisitorCounter";
+import nobelPrize from "../../assets/images/nobelPrize.jpg";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +19,10 @@ function Navbar() {
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-4 z-50">
-          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#D4AF37] text-xl font-bold text-[#08111F] shadow-lg">
-            T
-          </div>
+          <img 
+          src={nobelPrize}
+          alt="Nobel Prize award"
+          className="flex h-12 w-12 items-center justify-center rounded-full shadow-lg" />
           <div>
             <h1 className="text-xl sm:text-2xl font-bold tracking-wide text-white">
               TU YOUYOU
